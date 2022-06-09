@@ -13,6 +13,7 @@ export default defineConfig({
         description: 'Una aplicación de Geolocalización UTM y LatLng para mi Abuelo Igor.',
         theme_color: '#21c2e1',
         background_color: '#ffffff',
+        lang: 'es',
         icons: [
           {
             "src": "pwa-icons/icon-72x72.png",
