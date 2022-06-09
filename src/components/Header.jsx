@@ -15,7 +15,7 @@ const Header = ({ handleGetPosition }) => {
     <header className='header'>
       <h1 className='header__title'>Igor GPS</h1>
       <div className={`header__icon ${isLoading ? 'animation-reload' : ''}`} onClick={handleClickGetPosition}>
-        <img className='header__icon-img' src={ReloadIcon} width="24" height="24" />
+        <img className='header__icon-img' src={ReloadIcon} width="24" height="24" alt="Reload Icon" />
       </div>
     </header>
   )
