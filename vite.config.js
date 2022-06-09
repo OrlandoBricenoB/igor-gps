@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
+      registerType: 'autoUpdate',
       includeAssets: ['apple-touch-icon.png'],
       manifest: {
         name: 'Igor GPS',
