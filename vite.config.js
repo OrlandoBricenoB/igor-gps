@@ -14,7 +14,7 @@ export default defineConfig({
         theme_color: '#21c2e1',
         background_color: '#ffffff',
         lang: 'es',
-        start_url: '/igor_gps/',
+        start_url: '/igor-gps/',
         icons: [
           {
             "src": "pwa-icons/icon-72x72.png",
