@@ -16,6 +16,7 @@
 
 .header__title {
   font-size: 1.5rem;
+  color: var(--text)
 }
 
 .header__icon {
@@ -39,7 +40,7 @@
 .location {
   padding: 1rem;
   background-color: var(--primary);
-  color: #ffffff;
+  color: var(--text);
   text-align: center;
 }
 
@@ -51,9 +52,11 @@
 .location__coord--displayed { font-weight: 600 }
 
 .location__accuracy {
-  text-align: center;
+  color: var(--headline);
+  text-align: center
 }
 
 .location__accuracy-value {
-  font-size: 1.15rem;
+  color: var(--text);
+  font-size: 1.15rem
 }
