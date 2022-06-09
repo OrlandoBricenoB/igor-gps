@@ -2,7 +2,8 @@
 
 :root {
   --primary: #21c2e1;
-  --text: #070A2B;
+  --text: #292E6A;
+  --headline: #070A2B;
   --text-gray: #5D919A;
   --placeholder: #99B5BA;
   --border-color: #CCE8ED;
@@ -17,7 +18,7 @@
 
 body {
   background-color: #ffffff;
-  color: #070A2B;
+  color: var(--text);
   font-family: Rubik;
 }
 
