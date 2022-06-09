@@ -1,12 +1,32 @@
 *, *::before, *::after { box-sizing: border-box }
 
+:root {
+  --primary: #21c2e1;
+  --text: #070A2B;
+  --text-gray: #5D919A;
+  --placeholder: #99B5BA;
+  --border-color: #CCE8ED;
+  --border-hover: #99B5BA;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url('/fonts/rubik.ttf');
+  font-display: auto
+}
+
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #ffffff;
+  color: #070A2B;
+  font-family: Rubik;
+}
 
-  min-height: 100vh;
+.h3 {
+  font-size: 1.3rem;
+  margin: 1rem 0
+}
 
-  background-color: #070A2B;
-  color: #ffffff;
+p {
+  margin: 0;
+  line-height: 1.5
 }
