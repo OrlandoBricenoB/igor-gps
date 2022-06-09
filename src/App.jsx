@@ -67,7 +67,7 @@ const App = () => {
               <section className='location__accuracy'>
                 <h3 className='h3'>Precisión</h3>
                 <p className='location__accuracy-value'>
-                  {parseInt(currentLocation?.accuracy)} metros.
+                  {parseInt(currentLocation?.accuracy)} metros
                 </p>
               </section>
               )
