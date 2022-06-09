@@ -1,4 +1,59 @@
-.App {
-  font-size: 2rem;
-  text-align: center
+/** HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 1rem;
+
+  background-color: var(--primary);
+  color: #ffffff;
+  box-shadow: 0 2px 2px hsla(235, 72%, 10%, 0.25);
+
+  position: relative;
+  z-index: 1;
+}
+
+.header__title {
+  font-size: 1.5rem;
+}
+
+.header__icon {
+  transform: rotate(0deg);
+  cursor: pointer
+}
+
+.animation-reload { animation: .5s infinite reload }
+
+@keyframes reload {
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(-360deg)
+  }
+}
+
+/* Locación */
+.location {
+  padding: 1rem;
+  background-color: var(--primary);
+  color: #ffffff;
+  text-align: center;
+}
+
+.location__title { margin: 0 }
+.location__help-text {
+  padding: 1rem
+}
+
+.location__coord--displayed { font-weight: 600 }
+
+.location__accuracy {
+  text-align: center;
+}
+
+.location__accuracy-value {
+  font-size: 1.15rem;
 }
