@@ -1,0 +1,12 @@
+*, *::before, *::after { box-sizing: border-box }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+
+  background-color: #070A2B;
+  color: #ffffff;
+}
